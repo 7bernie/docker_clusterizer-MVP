@@ -1,23 +1,28 @@
 # app.py
-
-from flask import Flask, request, jsonify
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/api/container/deploy', methods=['POST'])
-def deploy_container():
-    # Handle container deployment logic
-    return jsonify({"message": "Container deployed successfully"})
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-@app.route('/api/cluster/manage', methods=['POST'])
-def manage_cluster():
-    # Handle cluster management logic
-    return jsonify({"message": "Cluster managed successfully"})
+@app.route('/deploy')
+def deploy():
+    return render_template('deploy.html')
 
-@app.route('/api/application/logs', methods=['GET'])
-def get_logs():
-    # Handle log retrieval logic
-    return jsonify({"logs": "Logs retrieved successfully"})
+@app.route('/monitor')
+def monitor():
+    return render_template('monitor.html')
+
+@app.route('/scale')
+def scale():
+    return render_template('scale.html')
+
+@app.route('/docs')
+def documentation():
+    return render_template('documentation.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
+

@@ -2,8 +2,8 @@
 
 class MonitoringLoggingService:
     def retrieve_logs(self, application_id, start_time, end_time):
-        # Retrieve logs logic
+        # Logic to retrieve logs for a deployed application within a specified time range
         pass
 
-    # Other monitoring methods
+    # Other methods related to monitoring and logging
 
