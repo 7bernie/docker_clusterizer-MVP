@@ -1,4 +1,6 @@
-# container_deployment_service.py
+#!/usr/bin/python3
+""" Script contains the logic for deploying containerized applications  """
+
 
 class ContainerDeploymentService:
     def deploy_container(self, application_config):
@@ -6,4 +8,3 @@ class ContainerDeploymentService:
         pass
 
     # Other methods related to container deployment
-

@@ -1,4 +1,6 @@
-# fault_tolerance_mechanisms.py
+#!/usr/bin/python3
+""" Script implements basic fault tolerance  """
+
 
 class FaultToleranceMechanisms:
     def auto_restart(self, container_id):
@@ -6,4 +8,3 @@ class FaultToleranceMechanisms:
         pass
 
     # Other fault tolerance mechanisms
-

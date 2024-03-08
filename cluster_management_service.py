@@ -1,4 +1,7 @@
-# cluster_management_service.py
+#!/usr/bin/python3
+""" Script for managing container clusters,
+including scaling resources up or down based on demand.  """
+
 
 class ClusterManagementService:
     def scale_cluster(self, cluster_id, num_replicas):
@@ -6,4 +9,3 @@ class ClusterManagementService:
         pass
 
     # Other methods related to cluster management
-
