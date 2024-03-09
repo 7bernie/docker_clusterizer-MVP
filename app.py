@@ -32,4 +32,5 @@ def documentation():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    """ Run the Flask application with host set to 0.0.0.0 """
+    app.run(host='0.0.0.0', port=5000)
