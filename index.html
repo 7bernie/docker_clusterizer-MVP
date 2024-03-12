@@ -5,57 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docker Clusterizer</title>
     <style>
-        /* Add CSS styles here */
-        /* Styles for cover image */
-        .cover-image {
-            width: 100%;
-            height: auto;
+        /* Add CSS styling here */
+        /* You can customize the styling based on your preferences */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
-        /* Styles for navigation */
         header {
             background-color: #333;
             color: #fff;
-            padding: 10px;
+            padding: 20px;
             text-align: center;
         }
-        header a {
-            color: #fff;
-            text-decoration: none;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .feature {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+        .feature-item {
+            text-align: center;
+            flex: 1;
             margin: 0 10px;
         }
-        /* Styles for button */
-        .deploy-button {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
+        .feature-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Introduction Section -->
-    <section id="intro">
-        <img class="cover-image" src="cover-image.jpg" alt="Cover Image">
-        <h1>Welcome to Docker Clusterizer</h1>
-        <p>A platform for managing Docker clusters efficiently.</p>
-    </section>
-
-    <!-- Header Navigation -->
     <header>
+        <h1>Docker Clusterizer</h1>
         <nav>
-            <a href="#intro">Introduction</a>
-            <a href="#deploy">Deploy Application</a>
-            <a href="#monitor">Monitor Applications</a>
-            <a href="#scale">Scale Clusters</a>
-            <a href="#docs">Documentation</a>
+            <a href="#intro">Intro</a> |
+            <a href="#features">Features</a> |
+            <a href="#about">About</a> |
+            <a href="/deploy">Deploy Application</a>
         </nav>
     </header>
 
-    <!-- Deploy Button -->
-    <a href="/deploy" class="deploy-button">Deploy Application</a>
+    <div id="intro" class="container">
+        <div class="intro">
+            <img src="path/to/cover-image.jpg" alt="Cover Image">
+            <h2>Welcome to Docker Clusterizer</h2>
+            <p>A platform for managing Docker clusters efficiently.</p>
+        </div>
+    </div>
+
+    <div id="features" class="container">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <div class="feature-item">
+                <img src="path/to/feature1-image.jpg" alt="Feature 1 Image">
+                <h3>Feature 1 Name</h3>
+                <p>Description of Feature 1.</p>
+            </div>
+            <div class="feature-item">
+                <img src="path/to/feature2-image.jpg" alt="Feature 2 Image">
+                <h3>Feature 2 Name</h3>
+                <p>Description of Feature 2.</p>
+            </div>
+            <div class="feature-item">
+                <img src="path/to/feature3-image.jpg" alt="Feature 3 Image">
+                <h3>Feature 3 Name</h3>
+                <p>Description of Feature 3.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add the About section below if needed -->
+
 </body>
 </html>
