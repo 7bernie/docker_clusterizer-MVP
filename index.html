@@ -5,24 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docker Clusterizer</title>
     <style>
-        /* Add CSS styling here */
-        /* You can customize the styling based on your preferences */
+        /* Global Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
         }
+
+        /* Header Styles */
         header {
             background-color: #333;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* Container Styles */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
+
+        /* Intro Section Styles */
         .intro {
             text-align: center;
             margin-bottom: 50px;
@@ -31,7 +55,19 @@
             max-width: 100%;
             height: auto;
             margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .intro h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .intro p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Feature Section Styles */
         .feature {
             display: flex;
             justify-content: space-around;
@@ -46,6 +82,16 @@
             max-width: 100%;
             height: auto;
             margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .feature-item p {
+            font-size: 16px;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -53,9 +99,9 @@
     <header>
         <h1>Docker Clusterizer</h1>
         <nav>
-            <a href="#intro">Intro</a> |
-            <a href="#features">Features</a> |
-            <a href="#about">About</a> |
+            <a href="#intro">Intro</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
             <a href="/deploy">Deploy Application</a>
         </nav>
     </header>
@@ -93,3 +139,4 @@
 
 </body>
 </html>
+
