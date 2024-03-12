@@ -11,6 +11,10 @@
 
 [Build your portfolio project (Week 2): MVP Complete](https://intranet.alxswe.com/projects/564)
 
+[Build your portfolio project (Week 3): Project Landing Page](https://intranet.alxswe.com/projects/565)
+
+[Build your portfolio project (Week 3): Presentation](https://intranet.alxswe.com/projects/573)
+
 ## Architecture
 ### Architecture Components
 1. User Interface (UI):
