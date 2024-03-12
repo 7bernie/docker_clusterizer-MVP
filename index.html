@@ -1,17 +1,61 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docker Clusterizer</title>
+    <style>
+        /* Add CSS styles here */
+        /* Styles for cover image */
+        .cover-image {
+            width: 100%;
+            height: auto;
+        }
+        /* Styles for navigation */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        /* Styles for button */
+        .deploy-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Docker Clusterizer</h1>
-    <a href="/deploy">Deploy Application</a>
-    <a href="/monitor">Monitor Applications</a>
-    <a href="/scale">Scale Clusters</a>
-    <a href="/docs">Documentation</a>
+    <!-- Introduction Section -->
+    <section id="intro">
+        <img class="cover-image" src="cover-image.jpg" alt="Cover Image">
+        <h1>Welcome to Docker Clusterizer</h1>
+        <p>A platform for managing Docker clusters efficiently.</p>
+    </section>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <a href="#intro">Introduction</a>
+            <a href="#deploy">Deploy Application</a>
+            <a href="#monitor">Monitor Applications</a>
+            <a href="#scale">Scale Clusters</a>
+            <a href="#docs">Documentation</a>
+        </nav>
+    </header>
+
+    <!-- Deploy Button -->
+    <a href="/deploy" class="deploy-button">Deploy Application</a>
 </body>
 </html>
-
