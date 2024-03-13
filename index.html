@@ -5,48 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docker Clusterizer</title>
     <style>
-        /* Global Styles */
+        /* Add CSS styling here */
+        /* You can customize the styling based on your preferences */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
+            background-color: #f2f2f2; /* Background color for the body */
         }
-
-        /* Header Styles */
         header {
             background-color: #333;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-        nav {
-            margin-top: 20px;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-            margin: 0 10px;
-            transition: background-color 0.3s ease;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-
-        /* Container Styles */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-
-        /* Intro Section Styles */
         .intro {
             text-align: center;
             margin-bottom: 50px;
@@ -55,19 +32,9 @@
             max-width: 100%;
             height: auto;
             margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Adjust the height of the cover image */
+            height: 500px; /* You can increase this value to make the image larger */
         }
-        .intro h2 {
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-        .intro p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        /* Feature Section Styles */
         .feature {
             display: flex;
             justify-content: space-around;
@@ -82,16 +49,16 @@
             max-width: 100%;
             height: auto;
             margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .feature-item h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
+        nav a {
+            color: #fff; /* Text color for the links */
+            text-decoration: none; /* Remove underlines from links */
+            padding: 10px; /* Add padding around links */
+            margin: 0 10px; /* Add margin between links */
+            transition: background-color 0.3s ease; /* Smooth transition effect */
         }
-        .feature-item p {
-            font-size: 16px;
-            line-height: 1.6;
+        nav a:hover {
+            background-color: #555; /* Background color on hover */
         }
     </style>
 </head>
@@ -106,50 +73,7 @@
         </nav>
     </header>
 
-    <div id="intro" class="container">
-        <div class="intro">
-            <img src="/docker_clusterizer-MVP/images/cover_image.jpg" alt="Cover Image">
-            <h2>Welcome to Docker Clusterizer</h2>
-            <p>A Platform For Docker Clusters Orchestration And Efficient Management</p>
-        </div>
-    </div>
-
-    <div id="features" class="container">
-        <h2>Key Features</h2>
-        <div class="feature">
-            <div class="feature-item">
-                <img src="/docker_clusterizer-MVP/images/deploy_container.jpg" alt="Feature 1 Image">
-                <h3>Container Deployment</h3>
-                <p>Select a containerized application from a predefined list or provide a Dockerfile to deploy your custom application</p>
-            </div>
-            <div class="feature-item">
-                <img src="/docker_clusterizer-MVP/images/cluster-manager.jpg" alt="Feature 2 Image">
-                <h3>Cluster Management</h3>
-                <p>Manage your container clusters by scaling resources up or down based on demand</p>
-            </div>
-            <div class="feature-item">
-                <img src="/docker_clusterizer-MVP/images/cluster_monitoring-logging.jpg" alt="Feature 3 Image">
-                <h3>Monitoring and Logging</h3>
-                <p>Track the health of your containerized applications using logs and monitor their performance</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="about" class="container">
-        <h2>About Us</h2>
-        <p>This project was inspired by my shared passion for containerization technologies and the desire to simplify the management of Docker clusters. It all started when I encountered the challenges of scaling applications and ensuring their reliability in production environments.</p>
-        <p>As a developer with diverse backgrounds, I pulled together some resources to create Docker Clusterizer as a solution to these challenges. Through collaboration and innovation, I've developed a platform that empowers developers to efficiently manage their containerized applications.</p>
-        <p>This project is part of my portfolio for Holberton School, where I am honing my skills in software engineering and pursuing my passion for technology. You can learn more about my journey and the projects I've worked on by visiting <a href="https://holbertonschool.com/">Holberton School</a>.</p>
-        <h3>Meet the Team</h3>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/bernard-udo-817a9592/">LinkedIn</a>, 
-                <a href="https://github.com/7bernie/docker_clusterizer-MVP/">GitHub</a>, 
-                <a href="https://twitter.com/BernardUdo/">Twitter</a>
-            </li>
-        </ul>
-        <p>Explore the codebase and contribute to our project on <a href="https://github.com/7bernie/docker_clusterizer-MVP">GitHub</a>.</p>
-    </div>
+    <!-- Rest of your HTML content goes here -->
 
 </body>
 </html>
