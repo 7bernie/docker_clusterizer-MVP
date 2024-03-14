@@ -15,6 +15,10 @@
 
 [Build your portfolio project (Week 3): Presentation](https://intranet.alxswe.com/projects/573)
 
+[Cleanup your Portfolio Project](https://intranet.alxswe.com/projects/567)
+
+[Portfolio Project Blog post](https://intranet.alxswe.com/projects/566)
+
 ## Architecture
 ### Architecture Components
 1. User Interface (UI):
