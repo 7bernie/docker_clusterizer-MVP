@@ -1,19 +1,29 @@
 #!/usr/bin/python3
-""" Script contains the logic for deploying containerized applications  """
+"""
+Script contains the logic for deploying containerized applications.
+"""
 
 import docker
 
+
 class ContainerDeploymentService:
     def __init__(self):
+        """
+        Initialize the ContainerDeploymentService
+        by creating a Docker client instance.
+        """
         self.docker_client = docker.from_env()
 
     def deploy_container(self, application_config):
         """
-        Deploy a containerized application based on the provided application_config.
+        Deploy a containerized application based
+        on the provided application_config.
 
         Parameters:
-        - application_config: Dictionary containing configuration parameters for the application.
-          Example: {'image': 'my_image', 'port_bindings': {8080: 8080}, 'environment': {'KEY': 'VALUE'}}
+        - application_config (dict): Dictionary containing
+        configuration parameters for the application.
+          Example: {'image': 'my_image', 'port_bindings':
+          {8080: 8080}, 'environment': {'KEY': 'VALUE'}}
 
         Returns:
         - Container object if deployment is successful, None otherwise.
@@ -32,6 +42,7 @@ class ContainerDeploymentService:
             )
             return container
         except Exception as e:
+            # Print error message if container deployment fails
             print(f"Error deploying container: {e}")
             return None
 
