@@ -10,7 +10,7 @@ and fault tolerance mechanisms for containerized applications.
 
 ### Links
 [Final deployed site](https://7bernie.github.io/docker_clusterizer-MVP)
-[Final project blog article]
+[Final project blog article](https://medium.com/@bernardbassie/my-journey-of-building-the-docker-clusterizer-mvp-trials-learnings-and-accomplishments-b74e2cc4dd8e)
 Author(s) LinkedIn: [Bernard Udo](https://www.linkedin.com/in/bernard-udo-817a9592)
 
 [Research & Project approval (Part 1)](https://intranet.alxswe.com/projects/361)
